@@ -1,4 +1,4 @@
-# SP-Backup-DB-to-Another-Sites
+# Sharepoint backup database (.bak) and mount to another sites
 Powershell backup database of sharepoint and update to another sites
 use "sharepoint management shell" with administrator to do it.
 
