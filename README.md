@@ -11,3 +11,6 @@ use "sharepoint management shell" with administrator to do it.
 <p>EX: Mount-SPContentDatabase WSS_Content_test -DatabaseServer THSP0001 -WebApplication https://tha-spintra.devtest.com</p>
 //"MyDatabase" can see real name by right click your database and select properties, the database name will show in it.
 //"MyServer" is hostname
+
+<h1>If database that backup is not work can backup again and get new .bak file to restore by</h1>
+<p>EX: Restore-SPSite http://test.com/sites/ServicePortal -Path C:\Users\Public\Documents\spintra-dev.bak -Force</p>
