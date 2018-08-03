@@ -17,3 +17,6 @@ ref: https://docs.microsoft.com/en-us/powershell/module/sharepoint-server/mount-
 <h1>If database that backup is not work can backup again and get new .bak file to restore by</h1>
 <p>EX: Restore-SPSite http://test.com/sites/ServicePortal -Path C:\Users\Public\Documents\spintra-dev.bak -Force</p>
 ref: https://docs.microsoft.com/en-us/powershell/module/sharepoint-server/restore-spsite?view=sharepoint-ps
+
+!!!After Restore finished , look at Site collection Admin. in Central Admin.
+if it same domain is ok.
